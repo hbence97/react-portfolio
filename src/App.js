@@ -1,25 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import AboutMe from "./components/AboutMe";
+import Header from "./components/Header";
+import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
+import Experience from "./components/Experience";
+import javaScriptRobot from "./images/javaScriptRobot.png";
+import flappyBirdPreview from "./images/flappy_bird_preview_1.jpg";
+import snakePreview from "./images/snake_game_preview.png";
+import chatroomPreview from "./images/chatroom_preview.png";
+import weatherAppPreview from "./images/weather_forecast_preview_1.png";
+import tetrisPreview from "./images/tetris_preview.png";
+import speedTypingPreview from "./images/typing_preview.png";
+import working from "./images/working.png";
+import studying from "./images/studying.png";
+import videoTutorials from "./images/video-tutorials.png";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div className="App">
+        <Navbar />
+        <Header />
+        <AboutMe />
+        <Skills javaScriptRobot={javaScriptRobot} />
+        <Projects
+          flappyBirdPreview={flappyBirdPreview}
+          snakePreview={snakePreview}
+          chatroomPreview={chatroomPreview}
+          weatherAppPreview={weatherAppPreview}
+          tetrisPreview={tetrisPreview}
+          speedTypingPreview={speedTypingPreview}
+        />
+        <Experience
+          working={working}
+          studying={studying}
+          videoTutorials={videoTutorials}
+        />
+      </div>
+    );
+  }
 }
 
 export default App;

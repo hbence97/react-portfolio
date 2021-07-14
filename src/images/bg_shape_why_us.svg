@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="774px" viewBox="0 0 1920 774" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>shape-why-desktop</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M4.39287172e-13,11 C707.46875,82.1328125 1055.55469,-20.1796875 1920,12.5126374 C1920,228.458709 1920,520.289698 1920,768.999867 C1081.67929,853.674641 851.924266,372.228022 4.53757824e-13,391.812238 C-1.37824982e-13,284.458535 -1.59581137e-13,55.756108 4.39287172e-13,11 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-4" transform="translate(0.000000, -5.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="shape-why-desktop" fill="#000000" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>
