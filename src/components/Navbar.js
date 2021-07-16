@@ -50,7 +50,7 @@ export default class Navbar extends React.Component {
             <a onClick={() => scroll.scrollTo(2480)}>Projects</a>
           </li>
           <li style={{ marginTop: this.state.scrolled ? "0px" : "20px" }}>
-            <a onClick={() => scroll.scrollTo(3650)}>Experiences</a>
+            <a onClick={() => scroll.scrollTo(3750)}>Experiences</a>
           </li>
         </ul>
       </nav>

@@ -6,6 +6,8 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
+//import Resume from "./components/Resume";
+import Footer from "./components/Footer";
 import javaScriptRobot from "./images/javaScriptRobot.png";
 import flappyBirdPreview from "./images/flappy_bird_preview_1.jpg";
 import snakePreview from "./images/snake_game_preview.png";
@@ -16,6 +18,7 @@ import speedTypingPreview from "./images/typing_preview.png";
 import working from "./images/working.png";
 import studying from "./images/studying.png";
 import videoTutorials from "./images/video-tutorials.png";
+//import benceResume from "./images/Bences Resume (1)-1.jpg";
 
 class App extends React.Component {
   render() {
@@ -38,6 +41,7 @@ class App extends React.Component {
           studying={studying}
           videoTutorials={videoTutorials}
         />
+        <Footer />
       </div>
     );
   }

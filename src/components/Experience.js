@@ -1,4 +1,5 @@
 import React from "react";
+import { animateScroll as scroll, scroller } from "react-scroll";
 
 class Experience extends React.Component {
   handleClick = () => {
@@ -89,6 +90,15 @@ class Experience extends React.Component {
               </p>
             </div>
           </div>
+        </div>
+        <div className="experience-to-the-top">
+          <a
+            onClick={() => {
+              scroll.scrollTo(0);
+            }}
+          >
+            <i class="fa fa-chevron-up"></i>
+          </a>
         </div>
       </div>
     );

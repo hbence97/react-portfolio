@@ -17,8 +17,12 @@ export default function Header() {
           </h2>
         </div>
       </article>
-      <a href="#" className="header-button">
-        <span>Contact me</span>
+      <a
+        href="https://www.linkedin.com/in/bence-hegyes-881101177/"
+        className="header-button"
+        target="_blank"
+      >
+        <span>Connect with me</span>
       </a>
     </header>
   );
