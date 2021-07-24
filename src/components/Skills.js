@@ -4,7 +4,7 @@ export default function Skills(props) {
   return (
     <div className="skills" id="skills">
       <div className="skills-scroll-to"></div>
-      <h1>Skills</h1>}
+      <h1>Skills</h1>
       <h2>Programming languages/frameworks/technologies that I mainly use.</h2>
       <div className="skills-icons">
         <i className="devicon-javascript-plain"></i>

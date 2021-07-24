@@ -1,5 +1,5 @@
 import React from "react";
-import { animateScroll as scroll, scroller, Link } from "react-scroll";
+import { Link } from "react-scroll";
 
 export default class Navbar extends React.Component {
   constructor() {

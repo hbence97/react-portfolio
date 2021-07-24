@@ -1006,3 +1006,21 @@ header .content-text h1,
     top: 1760px;
   }
 }
+
+@media screen and (max-height: 695px) and (min-width: 696px) {
+  .skills:before {
+    top: 1728px;
+  }
+}
+
+@media screen and (max-height: 695px) and (min-width: 785px) {
+  .skills:before {
+    top: 1690px;
+  }
+}
+
+@media screen and (max-height: 695px) and (min-width: 895px) {
+  .skills:before {
+    top: 1650px;
+  }
+}

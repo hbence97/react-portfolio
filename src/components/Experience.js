@@ -1,5 +1,5 @@
 import React from "react";
-import { animateScroll as scroll, scroller } from "react-scroll";
+import { animateScroll as scroll } from "react-scroll";
 
 class Experience extends React.Component {
   handleClick = () => {
@@ -29,7 +29,11 @@ class Experience extends React.Component {
               className="experience-accordion-button button1"
               onClick={this.handleClick}
             >
-              <img className="working" src={this.props.working} />
+              <img
+                className="working"
+                src={this.props.working}
+                alt="working icon"
+              />
             </button>
             <div className="experience-accordion-panel">
               <span>2021.01 - Current</span>
@@ -50,7 +54,11 @@ class Experience extends React.Component {
               className="experience-accordion-button button2"
               onClick={this.handleClick}
             >
-              <img className="studying" src={this.props.studying} />
+              <img
+                className="studying"
+                src={this.props.studying}
+                alt="studying icon"
+              />
             </button>
             <div className="experience-accordion-panel">
               <span>2020.02 - 2020.12</span>
@@ -70,6 +78,7 @@ class Experience extends React.Component {
               <img
                 className="video-tutorials"
                 src={this.props.videoTutorials}
+                alt="video tutorials icon"
               />
             </button>
             <div className="experience-accordion-panel">

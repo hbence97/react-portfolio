@@ -12,7 +12,10 @@ export default function Projects(props) {
           target="_blank"
         >
           <div className="column column-image">
-            <img src={props.weatherAppPreview} />
+            <img
+              src={props.weatherAppPreview}
+              alt="clickable weather app icon"
+            />
           </div>
         </a>
 
@@ -22,7 +25,10 @@ export default function Projects(props) {
           target="_blank"
         >
           <div className="column column-image">
-            <img src={props.flappyBirdPreview} />
+            <img
+              src={props.flappyBirdPreview}
+              alt="clickable flappy bird icon"
+            />
           </div>
         </a>
 
@@ -32,7 +38,7 @@ export default function Projects(props) {
           target="_blank"
         >
           <div className="column column-image">
-            <img src={props.chatroomPreview} />
+            <img src={props.chatroomPreview} alt="clickable chatroom icon" />
           </div>
         </a>
 
@@ -42,7 +48,7 @@ export default function Projects(props) {
           target="_blank"
         >
           <div className="column column-image">
-            <img src={props.snakePreview} />
+            <img src={props.snakePreview} alt="clickable snake icon" />
           </div>
         </a>
 
@@ -52,7 +58,7 @@ export default function Projects(props) {
           target="_blank"
         >
           <div className="column column-image">
-            <img src={props.tetrisPreview} />
+            <img src={props.tetrisPreview} alt="clickable tetris icon" />
           </div>
         </a>
 
@@ -62,7 +68,10 @@ export default function Projects(props) {
           target="_blank"
         >
           <div className="column column-image">
-            <img src={props.speedTypingPreview} />
+            <img
+              src={props.speedTypingPreview}
+              alt="clickable speed typing game icon"
+            />
           </div>
         </a>
       </div>
