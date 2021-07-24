@@ -101,6 +101,11 @@ header .content-text h3 {
   text-decoration: none;
   text-align: center;
   color: white;
+  transition: 0.2s ease;
+}
+
+.header-button:hover {
+  transform: scale(1.15);
 }
 
 header .content-text h1,
@@ -859,6 +864,19 @@ header .content-text h1,
 }
 
 @media screen and (max-width: 860px) {
+  /* Header */
+  header .content-text {
+    width: initial;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  header .header-button {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
   /* Skills */
   .skills-icons {
     display: grid;
@@ -913,7 +931,27 @@ header .content-text h1,
   }
 }
 
+@media screen and (max-width: 660px) {
+  header article {
+    height: 120%;
+  }
+
+  header h1 {
+    margin-bottom: 100px;
+  }
+
+  header .header-button {
+    transform: translate(-50%, 200%);
+  }
+}
+
 @media screen and (max-width: 625px) {
+  /* Header */
+  header .header-button {
+    display: none;
+  }
+
+  /* Projects */
   .experience::before {
     top: 5665px;
   }
@@ -929,9 +967,21 @@ header .content-text h1,
     background-image: none;
   }
 
+  header .content-text {
+    height: 100%;
+  }
+
   header .content-text h1,
   header .content-text h2 {
     text-align: center;
+  }
+
+  header .content-text h1 {
+    font-size: 4em;
+  }
+
+  header .content-text h2 {
+    font-size: 1.9em;
   }
 
   /* Transition images */
