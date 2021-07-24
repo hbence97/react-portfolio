@@ -10,11 +10,12 @@ export default function Header() {
         <div className="content-text">
           <h1>Junior Frontend Developer</h1>
           <h2>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-            maxime quod error labore nulla nesciunt recusandae, eveniet,
-            exercitationem rerum a incidunt, pariatur officia delectus provident
-            enim hic in dolore ad?
+            “Those people who develop the ability to continuously acquire new
+            and better forms of knowledge that they can apply to their work and
+            to their lives will be the movers and shakers in our society for the
+            indefinite future.”
           </h2>
+          <h3>- Brian Tracy</h3>
         </div>
       </article>
       <a

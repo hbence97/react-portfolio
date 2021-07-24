@@ -1,10 +1,9 @@
 import React from "react";
-import { animateScroll as scroll, scroller } from "react-scroll";
+import { animateScroll as scroll, scroller, Link } from "react-scroll";
 
 export default class Navbar extends React.Component {
   constructor() {
     super();
-    this.scrollTo = this.scrollTo.bind(this);
 
     this.state = {
       scrolled: false,
@@ -17,14 +16,6 @@ export default class Navbar extends React.Component {
 
   componentWillUnmount() {
     window.removeEventListener("scroll", this.handleScroll);
-  }
-
-  scrollTo() {
-    scroller.scrollTo("scroll-to-element", {
-      duration: 800,
-      delay: 0,
-      smooth: "easeInOutQuart",
-    });
   }
 
   handleScroll = () => {
@@ -41,16 +32,24 @@ export default class Navbar extends React.Component {
       >
         <ul className="Navbar-ul">
           <li style={{ marginTop: this.state.scrolled ? "0px" : "20px" }}>
-            <a onClick={() => scroll.scrollTo(980)}>About me</a>
+            <Link to="about-me-scroll-to" smooth={true}>
+              About me
+            </Link>
           </li>
           <li style={{ marginTop: this.state.scrolled ? "0px" : "20px" }}>
-            <a onClick={() => scroll.scrollTo(1750)}>Skills</a>
+            <Link to="skills-scroll-to" smooth={true}>
+              Skills
+            </Link>
           </li>
           <li style={{ marginTop: this.state.scrolled ? "0px" : "20px" }}>
-            <a onClick={() => scroll.scrollTo(2480)}>Projects</a>
+            <Link to="projects" smooth={true}>
+              Projects
+            </Link>
           </li>
           <li style={{ marginTop: this.state.scrolled ? "0px" : "20px" }}>
-            <a onClick={() => scroll.scrollTo(3750)}>Experiences</a>
+            <Link to="experiences" smooth={true}>
+              Experiences
+            </Link>
           </li>
         </ul>
       </nav>
