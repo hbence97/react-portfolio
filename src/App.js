@@ -1,12 +1,14 @@
 import React from "react";
 import "./App.css";
+
 import AboutMe from "./components/AboutMe";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
+import Projects from "./components/projects/Projects";
 import Skills from "./components/Skills";
 import Experience from "./components/experience/Experience";
 import Footer from "./components/Footer";
+
 import javaScriptRobot from "./images/javaScriptRobot.png";
 import flappyBirdPreview from "./images/flappy_bird_preview_1.jpg";
 import snakePreview from "./images/snake_game_preview.png";
