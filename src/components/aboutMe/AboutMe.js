@@ -1,5 +1,7 @@
 import React from "react";
 
+import AboutMeButton from "./AboutMeButton";
+
 export default function AboutMe() {
   return (
     <div className="about-me">
@@ -17,20 +19,16 @@ export default function AboutMe() {
         </h3>
       </article>
       <div className="buttons">
-        <a
-          href="https://www.linkedin.com/in/bence-hegyes-881101177/"
-          target="_blank"
-          className="about-me-linkedIn "
-        >
-          <i className="fa fa-linkedin-square fa-5x"></i>
-        </a>
-        <a
-          href="https://github.com/hbence97"
-          target="_blank"
-          className="about-me-github "
-        >
-          <i className="fa fa-github-square fa-5x"></i>
-        </a>
+        <AboutMeButton
+          href={"https://www.linkedin.com/in/bence-hegyes-881101177/"}
+          classNameaTag={"about-me-linkedIn"}
+          classNameiTag={"fa-linkedin-square"}
+        />
+        <AboutMeButton
+          href={"https://github.com/hbence97"}
+          classNameaTag={"about-me-github"}
+          classNameiTag={"fa-github-square"}
+        />
       </div>
     </div>
   );
