@@ -19,7 +19,7 @@ const Experience = props => {
             <span>2021.01 - Current</span>
             <p>
               In 2020 I finally landed a job as a Junior Software Developer at a
-              smaller company after months of hard work. My main role is{" "}
+              smaller company after months of hard work. My main role was{" "}
               <b>making websites</b>, and adding <b>custom features</b> to it.{" "}
               <br></br>
               <br></br>
