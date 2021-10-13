@@ -23,7 +23,7 @@ const Experience = props => {
               <b>making websites</b>, and adding <b>custom features</b> to it.{" "}
               <br></br>
               <br></br>
-              In october, I joined <b>DXC Technologies</b> as a{" "}
+              In october, I joined <b>DXC Technology</b> as a{" "}
               <b>Junior Frontend Developer</b>, which was literally my dream
               job, and I couldn't be more happy about it.
             </p>
