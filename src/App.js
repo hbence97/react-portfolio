@@ -9,7 +9,6 @@ import Projects from "./components/projects/Projects";
 import Experience from "./components/experience/Experience";
 import Footer from "./components/Footer";
 
-import javaScriptRobot from "./images/javaScriptRobot.png";
 import flappyBirdPreview from "./images/flappy_bird_preview_1.jpg";
 import snakePreview from "./images/snake_game_preview.png";
 import chatroomPreview from "./images/chatroom_preview.png";
@@ -27,7 +26,7 @@ class App extends React.Component {
         <Navbar />
         <Header />
         <AboutMe />
-        <Skills javaScriptRobot={javaScriptRobot} />
+        <Skills />
         <Projects
           flappyBirdPreview={flappyBirdPreview}
           snakePreview={snakePreview}

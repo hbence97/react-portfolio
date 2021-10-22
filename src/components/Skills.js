@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Skills(props) {
+const Skills = () => {
   return (
     <div className="skills" id="skills">
       <div className="skills-scroll-to"></div>
@@ -8,12 +8,12 @@ export default function Skills(props) {
       <h2>Programming languages/frameworks/technologies that I mainly use.</h2>
       <div className="skills-icons">
         <i className="devicon-javascript-plain"></i>
+        <i className="devicon-typescript-plain"></i>
         <i className="devicon-react-original-wordmark colored"></i>
         <i className="devicon-html5-plain-wordmark"></i>
         <i className="devicon-css3-plain-wordmark"></i>
         <i className="devicon-git-plain-wordmark"></i>
         <i className="devicon-github-plain-wordmark"></i>
-        <i className="devicon-wordpress-plain-wordmark"></i>
         <svg className="figma" viewBox="0 0 128 128">
           <path
             fill="#0acf83"
@@ -134,4 +134,6 @@ export default function Skills(props) {
       </div>
     </div>
   );
-}
+};
+
+export default Skills;

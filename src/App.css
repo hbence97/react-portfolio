@@ -244,6 +244,10 @@ header .content-text h1,
   color: #f0db4f;
 }
 
+.devicon-typescript-plain {
+  color: #007acc;
+}
+
 .devicon-html5-plain-wordmark {
   color: #e34c26;
 }
@@ -254,10 +258,6 @@ header .content-text h1,
 
 .devicon-git-plain-wordmark {
   color: #f34f29;
-}
-
-.devicon-wordpress-plain-wordmark {
-  color: #21759b;
 }
 
 .figma {
