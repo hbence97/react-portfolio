@@ -24,8 +24,8 @@ const Experience = props => {
               <br></br>
               <br></br>
               In october, I joined <b>DXC Technology</b> as a{" "}
-              <b>Junior Frontend Developer</b>, which was literally my dream
-              job, and I couldn't be more happy about it.
+              <b>Junior Software Developer</b> and I'm working on the frontend
+              of the <b>Vodafone Deutschland project</b>.
             </p>
           </CardPanel>
         </Card>

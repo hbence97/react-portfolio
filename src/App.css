@@ -260,6 +260,11 @@ header .content-text h1,
   color: #f34f29;
 }
 
+.vue {
+  height: 80px;
+  margin: 0 20px;
+}
+
 .figma {
   height: 80px;
   margin: 0 20px;
