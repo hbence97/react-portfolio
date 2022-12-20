@@ -425,6 +425,9 @@ header .content-text h1,
 }
 
 .experience-accordion-item {
+  display: flex;
+  flex-wrap: wrap;
+  height: fit-content;
   background-color: #3eabfe;
   border: 4px solid rgb(240, 240, 240);
   margin: 0 24px;
@@ -1066,6 +1069,6 @@ header .content-text h1,
 
 @media screen and (max-height: 890px) and (max-width: 600px) {
   .skills:before {
-    top: 1745px;
+    top: 1670px;
   }
 }
