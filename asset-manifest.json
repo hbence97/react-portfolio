@@ -1,27 +1,24 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.3062359d.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.bce673f9.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.bce673f9.chunk.js.map",
-    "runtime-main.js": "/react-portfolio/static/js/runtime-main.5f767cf3.js",
-    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.5f767cf3.js.map",
-    "static/js/2.fc6c5c91.chunk.js": "/react-portfolio/static/js/2.fc6c5c91.chunk.js",
-    "static/js/2.fc6c5c91.chunk.js.map": "/react-portfolio/static/js/2.fc6c5c91.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.24c61005.css",
+    "main.js": "/react-portfolio/static/js/main.d81db098.js",
+    "static/media/hegyesBenceKep.png": "/react-portfolio/static/media/hegyesBenceKep.4d7d0014a81e7ae85677.png",
+    "static/media/snake_game_preview.png": "/react-portfolio/static/media/snake_game_preview.5e4076f1540bdd12ddd7.png",
+    "static/media/chatroom_preview.png": "/react-portfolio/static/media/chatroom_preview.5611b1eba1430ca4209e.png",
+    "static/media/flappy_bird_preview_1.jpg": "/react-portfolio/static/media/flappy_bird_preview_1.4c5606a0949372c860cd.jpg",
+    "static/media/typing_preview.png": "/react-portfolio/static/media/typing_preview.e2a91358bd53aff3c915.png",
+    "static/media/weather_forecast_preview_1.png": "/react-portfolio/static/media/weather_forecast_preview_1.87a91563b55504813b19.png",
+    "static/media/tetris_preview.png": "/react-portfolio/static/media/tetris_preview.8c36c0e075d4531c5ebb.png",
+    "static/media/bg_shape_header.svg": "/react-portfolio/static/media/bg_shape_header.4d8026ec15ad64d97148.svg",
     "index.html": "/react-portfolio/index.html",
-    "static/css/main.3062359d.chunk.css.map": "/react-portfolio/static/css/main.3062359d.chunk.css.map",
-    "static/js/2.fc6c5c91.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.fc6c5c91.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/react-portfolio/static/media/hegyesBenceKep.4d7d0014.png",
-    "static/media/chatroom_preview.5611b1eb.png": "/react-portfolio/static/media/chatroom_preview.5611b1eb.png",
-    "static/media/flappy_bird_preview_1.4c5606a0.jpg": "/react-portfolio/static/media/flappy_bird_preview_1.4c5606a0.jpg",
-    "static/media/snake_game_preview.5e4076f1.png": "/react-portfolio/static/media/snake_game_preview.5e4076f1.png",
-    "static/media/tetris_preview.8c36c0e0.png": "/react-portfolio/static/media/tetris_preview.8c36c0e0.png",
-    "static/media/typing_preview.e2a91358.png": "/react-portfolio/static/media/typing_preview.e2a91358.png",
-    "static/media/weather_forecast_preview_1.87a91563.png": "/react-portfolio/static/media/weather_forecast_preview_1.87a91563.png"
+    "static/media/bg_wwu.svg": "/react-portfolio/static/media/bg_wwu.e8cb0f0420a0a2bab8e2.svg",
+    "static/media/case-study-footer-nav-top-blue.svg": "/react-portfolio/static/media/case-study-footer-nav-top-blue.215cffc19026c9a1c97f.svg",
+    "static/media/case-study-footer-nav-top.svg": "/react-portfolio/static/media/case-study-footer-nav-top.7dee629d0bc9792a2f48.svg",
+    "main.24c61005.css.map": "/react-portfolio/static/css/main.24c61005.css.map",
+    "main.d81db098.js.map": "/react-portfolio/static/js/main.d81db098.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.5f767cf3.js",
-    "static/js/2.fc6c5c91.chunk.js",
-    "static/css/main.3062359d.chunk.css",
-    "static/js/main.bce673f9.chunk.js"
+    "static/css/main.24c61005.css",
+    "static/js/main.d81db098.js"
   ]
 }
